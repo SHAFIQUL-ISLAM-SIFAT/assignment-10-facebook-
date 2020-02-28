@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #3b5998;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo {
+  width: 16.5%;
+}
+.logo img {
+  width: 100%;
+  opacity: 0.9;
+}
+.login input {
+  border: none;
+  border: 1px solid;
+  margin: 5px 0;
+  /* width: 137px; */
+  padding: 4px;
+}
+.login input[type="button"] {
+  background-color: #406ac1;
+  color: #fff;
+  padding: 3px 4px;
+  border: none;
+  border: 1px solid #00000057;
+}
+
+.login input[type="button"]:hover {
+  background-color: #3b5998;
+  cursor: pointer;
+  /* box-shadow: inset 0px 0px 2px; */
+}
+
+.login form label {
+  color: #fff;
+  font-size: 13px;
+}
+
+.login {
+  width: 40%;
+}
+form {
+  position: relative;
+  left: 123px;
+}
+.form-group {
+  display: inline-block;
+  width: 35%;
+}
+.forgotten {
+  position: absolute;
+  left: 36%;
+  top: 92%;
+}
+.forgotten p {
+  color: #83b4d8;
+  font-size: 13px;
+}
+.mainbody {
+  background-color: #d8dceb;
+}
+
+.content {
+  width: 82%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  /* border: 1px solid; */
+}
+.left {
+  width: 40%;
+  /* border: 1px solid; */
+  margin-top: 50px;
+}
+.left img {
+  width: 100%;
+}
+
+.right {
+  margin-top: 30px;
+  width: 50%;
+  /* border: 1px solid; */
+}
+
+h2 {
+  color: #0e385f;
+}
+.right h1 {
+  margin: 10px 124px;
+}
+
+.right h4 {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 10px 124px;
+}
+.right form input[type="text"] {
+  padding: 8px;
+  border-radius: 5px;
+  margin: 6px 0px;
+  font-size: 17px;
+  width: 175px;
+  border: 1px solid #00000036;
+}
+
+.right form input[type="password"],
+.right form input[type="email"] {
+  width: 72%;
+  border: 1px solid #00000036;
+  padding: 8px;
+  border-radius: 5px;
+  margin: 6px 0px;
+  font-size: 17px;
+}
+
+.right form label {
+  color: #90949c;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.right form p {
+  font-size: 13px;
+}
+.gendergroup {
+  width: 70%;
+}
+.gendergroup input[type="radio"] {
+  margin: 6px 7px;
+}
+.gendergroup input[type="button"] {
+  /* background-color: #5f994b; */
+  background-color: #69a74e;
+  color: #fff;
+  padding: 7px 45px;
+  margin: 10px 0px;
+  border: none;
+  border: 1px solid #00000057;
+  border-radius: 5px;
+  font-size: 19px;
+}
+.gendergroup input[type="button"]:hover {
+  background-color: #6eb84e;
+  cursor: pointer;
+}
+.gendergroup h5 {
+  color: #666666;
+  font-size: 15px;
+  padding: 5px 0;
+}

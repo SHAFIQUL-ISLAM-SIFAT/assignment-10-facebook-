@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>facebook</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="images/facebook.png" alt="facebook" />
+      </div>
+      <div class="login">
+        <form>
+          <div class="form-group">
+            <label for="email">Email or phone</label> <br />
+            <input type="email" name="email" id="email" />
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label> <br />
+            <input
+              type="password"
+              name="password"
+              id="password"
+              autocomplete="off"
+              min="8"
+            />
+          </div>
+          <input type="button" value="Log In" />
+          <div class="forgotten"><p>Forgotten account?</p></div>
+        </form>
+      </div>
+    </header>
+    <section class="mainbody">
+      <div class="content">
+        <div class="left">
+          <h2>
+            Facebook helps you connect and share with the people in your life.
+          </h2>
+          <img src="images/fbconnect.png" alt="connect" />
+        </div>
+        <div class="right">
+          <h1>Create an account</h1>
+          <h4>It's quick and easy.</h4>
+          <form>
+            <input
+              type="text"
+              name="firstname"
+              id=""
+              placeholder="Firstname"
+              autofocus
+            />
+            <input type="text" name="surname" id="" placeholder="Surname" />
+            <br />
+
+            <input
+              type="email"
+              name="email"
+              id=""
+              placeholder="Mobile number or email address"
+            />
+            <br />
+            <input
+              type="password"
+              name="password"
+              id=""
+              placeholder="New password"
+              autocomplete="off"
+            />
+            <br />
+
+            <label for="Birthdate">Birthdate</label> <br />
+            <input type="date" /> <br />
+
+            <label for="Gender">Gender</label>
+            <div class="gendergroup">
+              <input type="radio" name="Gender" />Female
+              <input type="radio" name="Gender" />Male
+              <input type="radio" name="Gender" />Custom <br />
+
+              <p>
+                By clicking Sign Up, you agree to our
+                <a href=""> Terms, Data Policy</a> and
+                <a href="">Cookie Policy</a>
+                . You may receive SMS notifications from us and can opt out at
+                any time.
+              </p>
+              <br />
+              <input type="button" value="Sign Up" />
+              <h5>
+                <a href=""> Create a Page</a> for a celebrity, band or business.
+              </h5>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
